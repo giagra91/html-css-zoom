@@ -96,6 +96,7 @@ footer div.footer-link-right{
     width: 8%;
     background-color: #4A4A4A;
     flex-shrink: 0;
+    min-width: 120px;
 }
 
 footer div.footer-link i{
