@@ -47,7 +47,7 @@ header div.top-nav div.top-link{
     width: 95%;
     height: 82vh;
     margin: 0 auto;
-    overflow: scroll;
+    overflow: auto;
     flex-flow: row wrap;
     justify-content: center;
     align-content: flex-start;
