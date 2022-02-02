@@ -23,6 +23,7 @@ footer{
     width: 100%;
     height: 10vh;
     background-color: #222222;
+    overflow: auto;
 }
 
 .flex-container{
@@ -77,8 +78,9 @@ footer.flex-container{
 footer div.footer-link-left{
     width: 10%;
     min-width: 120px;
+    margin-left: 0.7rem;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-shrink: 0;
 }
 
