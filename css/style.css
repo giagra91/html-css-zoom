@@ -1,0 +1,30 @@
+/* RESET */
+* {
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    height: 8vh;
+    background-color: green;
+}
+
+main{
+    background-color: blue;
+}
+
+footer{
+    width: 100%;
+    height: 12vh;
+    background-color: chartreuse;
+}
+
+.main-section{
+    width: 95%;
+    height: 80vh;
+    margin: 0 auto;
+    overflow: scroll;
+    background-color: blueviolet;
+}
