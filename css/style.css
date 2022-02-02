@@ -7,8 +7,12 @@
 
 header{
     width: 100%;
-    height: 5vh;
+    height: 8vh;
+    padding-bottom: 10px;
     background-color: black;
+    justify-content: flex-end;
+    align-items: center;
+
 }
 
 main{
@@ -23,24 +27,27 @@ footer{
 
 header div.top-nav{
     width: 15%;
-    background-color: blue;
     color: white;
+    justify-content: flex-end;
 }
 
-header div.top-nav .top-link{
-
+header div.top-nav div.top-link{
+    font-size: 0.8rem;
+    margin: 0.3rem;
+    padding: 5px;
+    border-radius: 4px;
+    background-color: #4A4A4A;
 }
 
 .main-section{
     width: 95%;
-    height: 85vh;
+    height: 82vh;
     margin: 0 auto;
     overflow: scroll;
     flex-flow: row wrap;
     justify-content: center;
     align-content: flex-start;
     gap: 15px 5px;
-    background-color: blueviolet;
 }
 
 section.main-section div.flex-image{
@@ -50,6 +57,7 @@ section.main-section div.flex-image{
     background-image: url("https://i.picsum.photos/id/1015/6000/4000.jpg?hmac=aHjb0fRa1t14DTIEBcoC12c5rAXOSwnVlaA5ujxPQ0I");
     background-size: cover;
     align-items: flex-end;
+    flex-wrap: wrap;
 }
 
 div.window-name{
