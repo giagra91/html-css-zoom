@@ -76,7 +76,7 @@ footer.flex-container{
     justify-content: space-between;
 }
 
-footer div.footer-link-left{
+footer div.footer-icon-left{
     width: 10%;
     min-width: 120px;
     margin-left: 0.7rem;
@@ -84,40 +84,40 @@ footer div.footer-link-left{
     justify-content: space-between;
 }
 
-footer div.footer-link-center{
+footer div.footer-icon-center{
     width: 40%;
     min-width: 480px;
     align-items: center;
     justify-content: space-around;
 }
 
-footer div.footer-link-right{
+footer div.footer-icon-right{
     width: 8%;
     background-color: #4A4A4A;
     flex-shrink: 0;
     min-width: 120px;
 }
 
-footer div.footer-link i{
+footer div.footer-icon i{
     font-size: 1.5rem;
     margin-bottom: 5px;
 }
 
-footer div.footer-link i.fa-angle-up{
+footer div.footer-icon i.fa-angle-up{
     font-size: 0.9rem;
 }
 
-footer div.footer-link p{
+footer div.footer-icon p{
     font-size: 0.8rem;
 }
 
-footer div.footer-link{
+footer div.footer-icon{
     color: white;
     text-align: center;
     flex-shrink: 0;
 }
 
-footer div.footer-link-right #end-call{
+footer div.footer-icon-right #end-call{
     margin: auto;
     color: red;
 }
